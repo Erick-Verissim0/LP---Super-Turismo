@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans',sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    margin: 13px;
+}
+
+.header {
+    display: flex;
+    background-color: #122A57;
+    height: 70px;
+    font-size: 12px;
+    color: white;
+    padding-left: 50px;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+
+#pesquisa {
+    display: flex;
+    margin-left: 700px;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo, .titulo1 {
+    color: #122A57;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+
+.quem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #122A57;
+}
+
+.paragrafo0 {
+    margin-left: 110px;
+    padding: 7px;
+}
+
+.saiba {
+    background-color: #122A57;
+    color: white;
+
+    padding: 13px 25px;
+    border-radius: 45px;
+    margin: 10px;
+    margin-left: -20px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.imagem0 {
+    border: 3px solid #1162f8;
+    margin: 60px 100px;
+}
+
+.paragrafo1 {
+    color: black;
+    margin-top: 10px;
+}
+
+.servicos {
+    background-color: #122A57;
+    height: 400px;
+    display: flex;
+}
+
+.titulo2 {
+    color: white;
+    margin-top: 50px;
+    font-size: 22px;
+    font-style: italic;
+    margin-left: 180px;
+}
+
+.imagens {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ESTILIZANDO OS TRÊS ICONES */
+
+.imagem22 {
+    padding-right: 150px;
+    
+}
+
+.imagem23 {
+    padding-right: 150px;
+}
+
+.imagem24 {
+    padding-right: 150px;
+}
+
+.hospedagem {
+    color: white;
+    padding: 10px 10px;
+    margin-left: 15px;
+}
+
+.pacotes {
+    color: white;
+    padding: 13px 10px;
+}
+
+.roteiros {
+    color: white;
+    padding: 13px 10px;
+    margin-left: -27px;
+}
+
+.comprar {
+    background-color: white;
+    color: #122A57;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+/* PLANOS */
+
+.containerp {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.p {
+    padding: 50px 200px;
+    font-size: 22px;
+    font-style: italic;
+    color: #122A57;
+}
+
+.planos {
+    margin-bottom: 150px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #122A57;
+    margin: 15px;
+}
+
+.tplano {
+    margin-bottom: 5px;
+    color: #122A57;
+    font-size: 25px;
+}
+
+.listap {
+    flex-direction: column;
+    list-style-type: disc;
+    padding: 15px;
+    align-items: flex-start;
+}
+
+.plano1 {
+    margin-left: 270px;
+}
+
+.plano2 {
+    margin-bottom: 68px;
+}
+
+.plano3 {
+    margin-bottom: 95px;
+}
+
+.smais {
+    background-color: #122A57;
+    color: white;
+    border-radius: 25px;
+    padding: 5px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.marginl {
+    margin-top: 7px;
+}
+
+/* RODAPÉ */
+
+.rodape {
+    background-color: #122A57;
+    height: 60px;
+    padding-left: 120px;
+    color: white;
+    
+    display: flex;
+    align-items: center;
+
+    font-style: italic;
+}
+
+.lp {
+    margin-left: 570px;
+}
